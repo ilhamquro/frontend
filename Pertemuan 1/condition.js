@@ -1,0 +1,1 @@
+const nilai = 80;
