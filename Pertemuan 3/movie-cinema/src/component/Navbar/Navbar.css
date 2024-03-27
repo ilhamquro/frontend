@@ -1,0 +1,38 @@
+/* small */
+
+.navbar {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.navbar ul li {
+    margin-bottom: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.navbar ul li:hover {
+    color: #b5b5;
+}
+
+/* medium */
+@media only screen and (min-width: 768px) {
+    .navbar ul {
+        display: flex;
+    }
+    
+    .navbar ul li {
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+}
