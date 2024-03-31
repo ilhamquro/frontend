@@ -1,0 +1,51 @@
+/* Small Screen */
+.navbar {
+    color: #242424;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin-bottom: 10px;
+}
+
+.navbar ul li:last-child {
+    margin-bottom: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #696969;
+}
+
+
+/* Medium Screen : 768px */
+@media only screen and (min-width: 768px) {
+    .navbar {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+    .navbar ul li {
+        margin-bottom: 0;
+        margin: 10px;
+    }
+}
